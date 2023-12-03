@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff5733;
+    font-size: 3em;
+    transform: rotate(-5deg);
+}
+
+.color-change {
+    background-color: #3498db;
+    color: white;
+    transition: background-color 1s;
+}
+
+.color-change:hover {
+    background-color: #e74c3c;
+}
+
+.rotate {
+    transform: rotate(10deg);
+    display: inline-block; /* Add this line to make rotation work properly */
+}

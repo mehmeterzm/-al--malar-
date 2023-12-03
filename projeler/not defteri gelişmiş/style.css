@@ -1,0 +1,150 @@
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, button, textarea {
+    margin-bottom: 10px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    color: brown;
+border-radius: 12px;
+    background-color: #e18d8d;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+#noteContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#noteList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#selectedNote {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+#contextMenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 1;
+}
+
+#contextMenu button {
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #333;
+}
+
+#contextMenu button:hover {
+    background-color: #eee;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, button, textarea {
+    margin-bottom: 10px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    color: brown;
+    border-radius: 12px;
+    background-color: #e18d8d;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+#noteContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#noteList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#selectedNote {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#contextMenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 1;
+}
+
+#contextMenu button {
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #333;
+}
+
+#contextMenu button:hover {
+    background-color: #eee;
+}

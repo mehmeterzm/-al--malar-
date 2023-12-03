@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müşteri Yönetim Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Müşteri Yönetim Sistemi</h1>
+        <div>
+            <label for="customerName">Müşteri Adı:</label>
+            <input type="text" id="customerName" placeholder="Adınızı girin...">
+            <button onclick="addCustomer()">Müşteri Ekle</button>
+        </div>
+
+        <ul id="customerList"></ul>
+
+        <div id="customerDetails" style="display:none;">
+            <h2>Müşteri Detayları</h2>
+            <label for="editedCustomerName">Yeni Ad:</label>
+            <input type="text" id="editedCustomerName" placeholder="Yeni adınızı girin...">
+            <button onclick="updateCustomer()">Güncelle</button>
+            <button onclick="cancelEdit()">İptal</button>
+        </div>  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

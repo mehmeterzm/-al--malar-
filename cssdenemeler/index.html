@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animasyon Örneği</title>
+    <style>
+        body {
+            background-color: #98db34;
+            border: 10px solid black;
+            display: flex;
+            justify-content:left;
+
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            cursor: pointer;
+            margin-left: 60px;
+            transition: all 0.6s ease; /* Geçiş efekti */
+        }
+
+        .box:hover {
+            transform: scale(1.1); /* Büyüme efekti */
+            background-color: red;
+            
+        }
+
+        .box.expand {
+            animation: expandAnimation 1s forwards; /* expandAnimation adındaki animasyonu 1 saniye boyunca oynat ve durumu animasyon sonunda bırak */
+            
+        }
+
+        @keyframes expandAnimation {
+            0% {
+                width: 100px;
+            }
+            50% {
+                background-color: black;
+            }
+            75% {
+                background-color: cadetblue;
+            }
+            100% {
+                width: 600px;
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" onclick="this.classList.toggle('expand')"></div>
+</body>
+</html>

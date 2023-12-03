@@ -1,0 +1,29 @@
+.container {
+    background-color: aqua;
+    width: 300px;
+    padding: 10px; /* İçeriğin sınırlarını düşünerek padding ayarı */
+    border-radius: 6px;
+    
+}
+#gif-container {
+    max-width: 100%; /* Gif'in maksimum genişliği sayfa genişliğini aşmasın */
+    display: flex;
+    justify-content: center; /* Gif'i yatayda merkezle */
+    align-items: center; /* Gif'i dikeyde merkezle */
+    margin-top: 20px; /* İhtiyaca göre yukarıdan boşluk ekleyebilirsiniz */
+   
+}
+img{
+    width: 180px;
+    height: 180px;
+}
+
+h4 {
+    margin: 0; /* H4 başlığının margin'ını sıfıra ayarla */
+}
+
+option {
+    text-align: center;
+    background-color: aquamarine;
+    color: red;
+}

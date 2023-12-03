@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HavaDurumu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h4>Hava Durumu</h4>
+        <select style="border-radius: 6px; border-color: blue; width:170px;" name="HavaDurumu:" id="hdrumu" onchange="getWeather()">
+            <option hidden selected>İl İlçe seçin</option>
+            <option value="istanbul">İstanbul</option>
+            <option value="izmir">izmir</option>
+            <option value="ankara">Ankara</option>
+            <option value="batman">Batman</option>
+            <option value="Mersin">Mersin</option>
+            <option value="Bursa">bursa</option>
+            
+        </select>
+        
+        
+        <div id="weather-container"></div>
+        <div id="gif-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

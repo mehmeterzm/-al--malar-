@@ -1,0 +1,1 @@
+sayfa yenilendiğinde notların silinmemesini sağla ve yapılanların üzerine çizik atılabilsin

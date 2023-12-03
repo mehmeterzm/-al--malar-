@@ -1,0 +1,7 @@
+ctrl + b panel açıp kapatma 
+ctrl + p yeni sekme açma
+ctrl + tab dosyalar arası geçiş
+alt tuşuna basarak biden fazla işi bir arada yapabilen
+alt + shiftle çoklu seçim yapabiliyorsun
+seçip ctrl + d aynı isimde şeyleri seçiyor
+snippets ayarları

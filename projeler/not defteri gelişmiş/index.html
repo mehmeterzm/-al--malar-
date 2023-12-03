@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Not Defteri</title>
+    <style>
+        /* Yeni stil tanımı */
+        #deleteNoteButton {
+            display: none; /* Başlangıçta gizli olacak */
+            background-color: #ff5252; /* Sil butonuna kırmızı arka plan eklendi */
+            color: white; /* Beyaz renkte metin */
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        <h1>Not Defteri</h1>
+
+        <label for="title">Başlık: </label>
+        <input type="text" id="title" placeholder="Başlık">
+        <br>
+        <label style="padding: 6px;padding-top: 10px;" for="note">Not:</label>
+        <textarea id="note" placeholder="Not"></textarea>
+        <br><br>
+
+        <button onclick="addNote()">Notu Kaydet</button>
+
+        <div id="noteContainer">
+            <ul id="noteList"></ul>
+            <div id="selectedNote">
+                <!-- Sil butonunu içeren div -->
+                <button id="deleteNoteButton" onclick="deleteSelectedNote()">Notu Sil</button>
+            </div>
+        </div>
+
+        <div id="contextMenu">
+            <button id="deleteNote">Notu Sil</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
